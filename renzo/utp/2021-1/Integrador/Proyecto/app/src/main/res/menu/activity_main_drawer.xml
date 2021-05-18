@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="@string/menu_myaccount" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/ic_productos"
+            android:title="@string/menu_productos" />
+        <item
+            android:id="@+id/nav_inventario"
+            android:icon="@drawable/ic_inventario"
+            android:title="@string/menu_inventario" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:icon="@drawable/ic_ventas"
+            android:title="@string/menu_ventas" />
+        <item
+            android:id="@+id/nav_compras"
+            android:icon="@drawable/ic_compras"
+            android:title="@string/menu_compras" />
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/ic_contacto"
+            android:title="@string/menu_contacto" />
+        <item
+            android:id="@+id/nav_boticas"
+            android:icon="@drawable/ic_boticas"
+            android:title="@string/menu_boticas" />
+    </group>
+        <item
+            android:id="@+id/nav_cerrarsesion"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_cerrarsesion" />
+        <item
+            android:id="@+id/nav_iniciarsesion"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_iniciarsesion" />
+</menu>
